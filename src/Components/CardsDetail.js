@@ -21,7 +21,7 @@ const CardsDetail = () => {
 
   const compare = () => {
     let compareData = getdata.filter((e) => {
-      return e.id === e.id;
+      return e.id;
     });
     setData(compareData);
   };
