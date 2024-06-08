@@ -38,10 +38,11 @@ const Header = () => {
     });
     setPrice(price);
   };
-
-  useEffect(() => {
+  
+   useEffect(() => {
     total();
   }, [total]);
+
 
   return (
     <>

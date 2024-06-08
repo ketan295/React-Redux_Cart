@@ -17,7 +17,6 @@ export const cartreducer = (state = INIT_STATE, action) => {
           carts: [...state.carts, temp]
         };
       }
-    
 
 
     case "RMV_CART":
